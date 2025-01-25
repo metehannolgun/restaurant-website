@@ -37,6 +37,14 @@ function App() {
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
+
+        <footer className='bg-body-teriary>'>
+          <p className='p-3 m-0 text-center '>
+            Made by metehannolgun
+          </p>
+        </footer>
+
+
     </div>
     
   )
