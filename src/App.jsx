@@ -1,5 +1,5 @@
 import './App.css'
-import {Link,Routes,Route} from 'react-router-dom'
+import {Link, Routes, Route} from 'react-router-dom'
 import Container from 'react-bootstrap/Container'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
@@ -21,7 +21,7 @@ function App() {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav'/>
           <Navbar.Collapse id='basic-navbar-nav'>
-            <Nav className='me-auto'justify-content-end w-100>
+            <Nav className='me-auto'justify-content-end="true" w-100="true">
               <Nav.Link href='/' className='active text-uppercase'>Home</Nav.Link>
               <Nav.Link href='/menu' className='text-uppercase'>Menu</Nav.Link>
               <Nav.Link href='/about' className='text-uppercase'>About</Nav.Link>

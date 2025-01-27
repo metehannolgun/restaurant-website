@@ -1,4 +1,6 @@
 import React from 'react'
+import MenuBtn from '../components/MenuBtn'
+import '../pages/Home.css'
 
 const Home = () => {
   return (
@@ -13,6 +15,7 @@ const Home = () => {
               </h2>
               <h1 className='mb-5 text-black fw-bold text-center text-sm-start'>
                 React Restaurant
+                <MenuBtn />
 
               </h1>
 
