@@ -2,6 +2,7 @@ import React from 'react'
 import MenuBtn from '../components/MenuBtn'
 import '../pages/Home.css'
 import { Link } from 'react-router-dom'
+import ImageGalerry from '../components/ImageGalerry'
 
 
 const Home = () => {
@@ -98,6 +99,8 @@ const Home = () => {
         </div>
 
       </div>
+      
+      <ImageGalerry />
 
 
     </div>
