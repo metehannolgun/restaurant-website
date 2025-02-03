@@ -3,6 +3,8 @@ import MenuBtn from '../components/MenuBtn'
 import '../pages/Home.css'
 import { Link } from 'react-router-dom'
 import ImageGalerry from '../components/ImageGalerry'
+import ContactInfo from '../components/ContactInfo'
+import Contact from '../utils/contact.jpg'
 
 
 const Home = () => {
@@ -101,6 +103,23 @@ const Home = () => {
       </div>
       
       <ImageGalerry />
+      <div className='bg-dark text-light py-5 shadow'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-lg-6 d-flex flex-column align-items-center
+            justify-content-center mb-5 mb-lg-0'>
+              <ContactInfo />
+              <div className='col-lg-6 d-flex justify-content-center' >
+                <img src={Contact} className='img-fluid' alt=''/>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
 
 
     </div>
