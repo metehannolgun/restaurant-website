@@ -2,6 +2,8 @@ import React from 'react'
 import './About.css'
 import Aboutchef1 from '../utils/chef1.jpg'
 import Aboutchef2 from '../utils/chef2.jpg'
+import ImageGalerry from '../components/ImageGalerry'
+import Reviews from '../components/Reviews'
 
 
 const About = () => {
@@ -36,7 +38,20 @@ const About = () => {
                     <div className='col-lg-6'>
                         <img src={Aboutchef2} className='img-fluid my-4' alt="" />
                     </div>
-                </div>
+              </div>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel provident vitae sint cumque dolore voluptate officiis itaque omnis,
+                 corrupti unde qui libero ducimus enim in sapiente sequi quibusdam nostrum nulla officia aut nisi tenetur,
+                  laudantium iusto! Tempore culpa aliquam eligendi, perspiciatis exercitationem eveniet, 
+                  cumque nesciunt laboriosam et debitis commodi ipsum esse rerum neque sequi veritatis aspernatur repudiandae possimus magnam harum voluptas ut? 
+                  Sapiente quam porro dicta quibusdam earum illo dolores ad aliquid aspernatur, voluptate architecto adipisci, ipsam assumenda eum modi.
+              </p>
+        </div>
+        <div className='bg-dark text-light'>
+            <ImageGalerry />
+        </div>
+        <div className='my-5'>
+            <Reviews />
         </div>
     </div>
   )
