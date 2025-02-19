@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import ImageGalerry from '../components/ImageGalerry'
 import ContactInfo from '../components/ContactInfo'
 import Contact from '../utils/contact.jpg'
+import Us from '../utils/homepageaboutus.jpg'
 
 
 const Home = () => {
@@ -34,7 +35,7 @@ const Home = () => {
       <div className='container my-5'>
         <div className='row'>
           <div className='col-lg-5 d-flex justify-content-center d-none d-lg-flex'>
-            <img src="" className='img fluid w-50'
+            <img src={Us} className='img fluid w-50'
             alt='about img'
              />
 
@@ -104,25 +105,18 @@ const Home = () => {
       
       <ImageGalerry />
       <div className='bg-dark text-light py-5 shadow'>
-        <div className='container'>
-          <div className='row'>
-            <div className='col-lg-6 d-flex flex-column align-items-center
-            justify-content-center mb-5 mb-lg-0'>
-              <ContactInfo />
-              <div className='col-lg-6 d-flex justify-content-center' >
-                <img src={Contact} className='img-fluid' alt=''/>
-              </div>
-
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-lg-6 d-flex flex-column align-items-center justify-content-center mb-5 mb-lg-0'>
+                            <ContactInfo />
+                        </div>
+                        <div className='col-lg-6 d-flex justify-content-center'>
+                            <img src={Contact} className='img-fluid w-50' alt="" />
+                        </div>
+                    </div>
+                </div>
             </div>
-
-          </div>
-
         </div>
-
-      </div>
-
-
-    </div>
   )
 }
 
