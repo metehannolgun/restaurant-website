@@ -1,7 +1,5 @@
 # Restaurant Website
 
-![Restaurant Website](https://via.placeholder.com/1200x600?text=Restaurant+Website+Preview)
-
 ## 📌 Overview
 A modern and responsive restaurant website built using **ReactJS** and **Tailwind CSS**. The project provides an elegant and user-friendly interface for restaurant businesses to showcase their menu and services.
 
